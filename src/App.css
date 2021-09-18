@@ -1,0 +1,13 @@
+
+h2{
+  font-size: 1.5em;
+  background-color: black;
+  padding: 30px; 
+  color: aliceblue;
+  margin: 5% 20% 0% 20%;
+  letter-spacing: 8px;
+}
+.App {
+  text-align: center;
+}
+

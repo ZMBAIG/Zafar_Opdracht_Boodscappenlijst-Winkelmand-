@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(222, 223, 245);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  background-color: rgb(173, 173, 173);
+  padding: 4px;
+}
+
+input{
+  padding: 4px;
+}
+
+
+.container {
+  display: flex;
+  gap: 12px;
+  margin: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.grocery-list, .shoppingcart-list {
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+background-color: rgb(201, 202, 206);}
+
+.grocery-list li:nth-child(even) {
+  background-color: rgb(233, 187, 197);
+  margin: 3px;
+  width: 500px;
+  border: inset 1.5px;
+
+}
+
+.grocery-list li:nth-child(odd) {
+  background-color: rgb(238, 136, 158);
+  margin: 3px;
+  border: inset 1.5px;
+
+}
+
+.shoppingcart-list li:nth-child(even) {
+  background-color: rgb(218, 229, 248);
+  margin: 3px;
+  border: inset 1.5px;
+
+}
+
+.shoppingcart-list li:nth-child(odd) {
+  background-color: rgb(195, 222, 248);
+  margin: 3px;
+  border: inset 1.5px;
+
+}
